@@ -3,9 +3,8 @@
  CREATE TABLE "users" (
 	"id" serial PRIMARY KEY,
 	"name" TEXT(30) NOT NULL UNIQUE,
-	"password" TEXT NOT NULL ,
 	"email" TEXT NOT NULL UNIQUE,
-	"address" TEXT NOT NULL UNIQUE,
+	"password" TEXT NOT NULL ,
 );
 
 CREATE TABLE "products" (
